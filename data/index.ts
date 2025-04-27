@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I believe in fostering strong client relationships through open, transparent communication.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,9 +19,9 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Flexible with time zones to ensure smooth communication.",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2 lg:min-h-[50vh]",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
@@ -28,9 +29,9 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    title: "My evolving tech stack keeps me ahead of the curve.",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2 lg:min-w-[100vh]",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
@@ -38,7 +39,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title:
+      "Passionate about technology, I’m driven to create and solve problems through development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -46,11 +48,12 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title:
+      "Currently working on a JavaScript animation library that aims to revolutionize web interactions.",
+    description: "",
+
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +62,8 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title:
+      "Ready to bring your ideas to life? Let's collaborate on something extraordinary.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,101 +76,113 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Portfolio Website",
+    des: "Personal developer portfolio featuring animations, and responsive layout using Next.js and Tailwind CSS.",
+    img: "/portfolio.png",
+    bgImage: "/bg.png",
+    link: "#",
+    iconLists: ["/next.svg", "/tail.svg", "/fm.svg"],
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Admin Dashboard",
+    des: "Clean and responsive admin dashboard with charts, analytics, and UI widgets. Great for showcasing layout skills.",
+    img: "/dashboard.png",
+    bgImage: "/bg.png",
+    link: "#",
+    iconLists: ["/next.svg", "/tail.svg", "/download.png"],
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Authentication Flow UI",
+    des: "Modern login/register UI using Next.js and Tailwind with transitions. Inspired by production-ready SaaS flows.",
+    img: "/auth-ui.png",
+    bgImage: "/bg.png",
+    link: "#",
+    iconLists: ["/next.svg", "/tail.svg", "/fm.svg"],
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "E-Commerce Storefront",
+    des: "Front-end UI for an e-commerce app with product cards, filters, and responsive design. Built for performance.",
+    img: "/ecommerce-ui.png",
+    bgImage: "/bg.png",
+    link: "#",
+    iconLists: ["/re.svg", "/tail.svg"],
+  },
+  {
+    id: 5,
+    title: "AI Image Generator UI",
+    des: "DALL·E-style image generation app UI with prompt input, loading animations, and responsive image grid.",
+    img: "/ai-generator.png",
+    bgImage: "/bg.png",
+    link: "#",
+    iconLists: ["/next.svg", "/tail.svg"],
+  },
+  {
+    id: 6,
+    title: "SaaS Pricing Page UI",
+    des: "A clean pricing page UI with toggleable monthly/yearly plans and feature comparison layout.",
+    img: "/pricing-ui.png",
+    bgImage: "/bg.png",
+    link: "#",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+  },
+  {
+    id: 7,
+    title: "Blog Platform UI",
+    des: "Stylish blog layout with category filters, dark/light mode, and smooth reading experience.",
+    img: "/blog-ui.png",
+    bgImage: "/bg.png",
+    link: "#",
+    iconLists: ["/next.svg", "/tail.svg"],
+  },
+  {
+    id: 8,
+    title: "Food Delivery App Landing",
+    des: "Landing page UI for a food delivery app with call-to-action buttons, sections, and modern grid layout.",
+    img: "/food-app.png",
+    bgImage: "/bg.png",
+    link: "#",
+    iconLists: ["/re.svg", "/tail.svg", "/fm.svg"],
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Awais was a game-changer. His attention to detail and creative approach brought our vision to life. He went above and beyond to deliver results that exceeded expectations.",
+    name: "Sarah Malik",
+    title: "Founder, Nova Digital Agency",
+    image: "/SarahMalik.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Awais is incredibly talented and reliable. He understood our project goals quickly and delivered a seamless user experience with clean, scalable code.",
+    name: "Jonathan Reed",
+    title: "Product Manager, SkyTech Solutions",
+    image: "/JonathanReed.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From start to finish, Awais demonstrated professionalism and technical expertise. His frontend skills and UI/UX insights were top-notch. Highly recommended!",
+    name: "Emma Chen",
+    title: "Creative Director, PixelTree Studio",
+    image: "/EmmaChen.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Awais not only delivered quality work on time but also brought valuable ideas to the table. He’s truly passionate about his craft and it shows in every detail.",
+    name: "Carlos Mendez",
+    title: "CTO, BrightEdge Innovations",
+    image: "/CarlosMendez.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+      "If you're looking for someone who blends design sensibility with coding excellence, Awais is your guy. He’s a pleasure to work with and always delivers polished results.",
+    name: "Nadia Farooq",
+    title: "CEO, Webline Works",
+    image: "/NadiaFarooq.jpg",
   },
 ];
 
